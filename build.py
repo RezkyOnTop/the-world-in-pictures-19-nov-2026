@@ -312,7 +312,7 @@ CARDS = [
      "The three nuclear powers sit down at APEC; arms control and Iran top the agenda. — Reuters"),
     ("NEW YORK, USA", "GAMES", "sunset", PURPLE,
      "Grand Theft Auto VI arrives after a 13-year wait",
-     "Unlocks at midnight in each country, New Zealand first; PS5 and Xbox, no PC yet. — BBC"),
+     "Thirteen years after GTA V: unlocks at midnight, PS5 and Xbox, no PC yet. — BBC"),
     ("NASDAQ, USA", "MARKETS", "chart", GREEND,
      "Anthropic debuts in the largest IPO on record",
      "Priced at $83 a share, raising $81.3bn at a valuation near $1.5tn. — Bloomberg"),
@@ -334,54 +334,57 @@ CARDS = [
     ("NEW YORK, USA", "ART", "oil", TERRA,
      "Van Gogh sells for a record $190.4m after a Nazi-era dispute",
      "Chataigniers en fleurs was painted in 1890, in his last months. — Guardian"),
-    ("SAN FRANCISCO, USA", "TECHNOLOGY", "virus", GREY,
-     "Waymo pulls every driverless car off America's freeways",
-     "Rides are offered only in a handful of its 15 US cities. — BBC"),
-    ("SOUTH FLORIDA, USA", "WEATHER", "flood", BLUE,
-     "Torrential rain floods neighbourhoods, schools and airports",
-     "Broward schools stay shut after 15 inches of rain. — BBC"),
+    ("BOGOTA, COLOMBIA", "LABOUR", "placards", ORANGE,
+     "A general strike tests De la Espriella's tax reform",
+     "The CUT and the country's union centres march against the bill. — US Embassy"),
+    ("CENTRAL GAZA", "CONFLICT", "tank", GREY,
+     "Israeli tanks cross the Yellow Line for the first time",
+     "The army says the raid was coordinated with Washington. — Al Jazeera"),
+    ("CANBERRA, AUSTRALIA", "ECONOMY", "chart", GREEND,
+     "Australia's unemployment rate rises to 4.9 per cent",
+     "The ABS reports the softening labour market for October. — ABS"),
 ]
 
 BRIEFS = [
-    ("GAZA", "Israel launches a rare ground raid beyond the Yellow Line."),
-    ("KHARKIV", "Ukrainian troops fight Russia inside an old Soviet gas tunnel."),
-    ("HONG KONG", "The Hang Seng Tech index falls to a 26-month low."),
-    ("VIENNA", "The IAEA chief backs inspections in the US-Saudi nuclear deal."),
-    ("SINGAPORE", "PM Wong offers to facilitate US checks on AI chips."),
-    ("TOKYO", "Takaichi and Xi shake hands a second time at APEC."),
-    ("NEW DELHI", "Modi meets the Prince and Princess of Wales."),
-    ("NEW DELHI", "Congress demands a white paper on inflation."),
-    ("NEW DELHI", "EPFO faces a 1.1 lakh crore bill for higher pensions."),
-    ("CHANDIGARH", "The NIA arrests a banned-group supporter deported by the US."),
-    ("RIYADH", "A Houthi missile is intercepted over the kingdom."),
-    ("KUWAIT", "Iran hits a US base, the first such attack in two months."),
-    ("CARACAS", "The US and Venezuela agree to restore military ties."),
-    ("DHAKA", "Paramilitary troops deploy as Hasina's return nears."),
-    ("DAKAR", "President Faye is excluded from Senegal's ruling party."),
-    ("RABAT", "A defence roadmap targets 50,000 jobs by 2035."),
-    ("MAPUTO", "Population growth is outpacing development, the PM warns."),
-    ("JUBA", "South Sudan offers 14 oil exploration blocks to investors."),
-    ("CAIRO", "Egypt and Syria restore direct flights after 14 years."),
-    ("ANTANANARIVO", "Madagascar grants the US easier access to its ports."),
-    ("HARARE", "The health ministry probes a socialite's death after surgery."),
-    ("LUSAKA", "Two broadcasters escape jail with fines over obscene content."),
-    ("ABUJA", "Police are urged to curb election-related violence."),
-    ("NAIROBI", "Sifuna calls Ruto's address a cover-up for rights abuses."),
-    ("TSHWANE", "A metro officer resigns while facing fraud charges."),
-    ("ACCRA", "A general's promotion timing is disputed before a court."),
-    ("ALGIERS", "65% of French people back recognising colonial violence."),
-    ("BANGUI", "Tension rises after two killings in Zemio."),
-    ("BUJUMBURA", "630 billion is pledged against El Nino; Burundi stays exposed."),
-    ("PORT LOUIS", "An Air Mauritius flight is diverted to Mumbai."),
-    ("KAMPALA", "A record Van Gogh sale leads the country's arts pages."),
+    ("KYIV", "The Crimean Bridge is hit again."),
+    ("KHARKIV", "Troops fight inside an old gas tunnel."),
+    ("HONG KONG", "The Hang Seng Tech index hits a low."),
+    ("VIENNA", "The IAEA backs US-Saudi inspections."),
+    ("SINGAPORE", "Wong offers US checks on AI chips."),
+    ("TOKYO", "Takaichi holds Japan's Taiwan line."),
+    ("NEW DELHI", "Modi meets the Prince of Wales."),
+    ("NEW DELHI", "A 1.1 lakh crore pension bill looms."),
+    ("CHANDIGARH", "The NIA arrests a deportee."),
+    ("RIYADH", "A Houthi missile is intercepted."),
+    ("KUWAIT", "Iran hits a US base in Kuwait."),
+    ("CARACAS", "Hegseth restores military ties."),
+    ("DHAKA", "Paramilitary troops deploy."),
+    ("DAKAR", "Faye is expelled from his party."),
+    ("CAIRO", "Egypt-Syria flights resume."),
+    ("NAIROBI", "Ruto defends a 750 km road."),
+    ("RABAT", "A road map targets 50,000 jobs."),
+    ("ABUJA", "Police urged to curb violence."),
+    ("JUBA", "14 oil blocks go on offer."),
+    ("MAPUTO", "Growth outpaces development."),
+    ("ALGIERS", "65% back colonial reckoning."),
+    ("BANGUI", "Tension rises after two killings."),
+    ("HARARE", "A death after surgery is probed."),
+    ("LUSAKA", "Two broadcasters are fined."),
+    ("ACCRA", "A promotion is disputed in court."),
+    ("TSHWANE", "A metro officer resigns."),
+    ("BUDAPEST", "Hungary's protests run a week."),
+    ("BERLIN", "Deutsche Bank backs its CEO."),
+    ("TOKYO", "A Van Gogh leads the arts pages."),
+    ("NEW YORK", "Sotheby's sells a Van Gogh."),
+    ("MEXICO CITY", "Banxico's board was split."),
 ]
 
 STATS = [("$81.3bn", "raised by Anthropic, the largest IPO on record", 27),
          ("$190.4m", "paid for a Van Gogh at Sotheby's, a new high", 27),
          ("200,000", "evacuated ahead of Cyclone Akvan on India's coast", 27),
          ("$120bn", "a year of adaptation finance left unresolved at COP31", 27),
-         ("13 years", "between Grand Theft Auto V and its sequel", 27),
-         ("42", "stories on this page, every one from the 19th", 27)]
+         ("Thirteen years", "between Grand Theft Auto V and its sequel", 27),
+         ("4.9 per cent", "Australia's unemployment rate, up on the month", 27)]
 
 DECK_TXT = ("Three leaders meet in Shenzhen  ·  A court rules on Myanmar  ·  The largest IPO "
             "ever starts trading  ·  Van Gogh sets a record")
@@ -420,7 +423,7 @@ def main(out="entry.png", ss=2):
     # ---- masthead ------------------------------------------------------
     y = S_(8)
     tracked(d, "THE WORLD IN ONE PICTURE", M, y, COND, S_(8), RED, S_(0.7))
-    right = "42 STORIES  ·  EVERY ONE FROM THURSDAY 19 NOVEMBER"
+    right = f"{len(CARDS) + len(BRIEFS)} STORIES  ·  EVERY ONE FROM THURSDAY 19 NOVEMBER"
     tw = tracked_w(d, right, COND, S_(8), S_(0.7))
     tracked(d, right, W - M - tw, y, COND, S_(8), INK, S_(0.7))
 
@@ -485,23 +488,29 @@ def main(out="entry.png", ss=2):
         bl = len(wrap(d, dek, bf, w - S_(14))[:3])
         return S_(4) + ill_h + S_(15) + hl * hf.size * 1.06 + S_(2) + bl * bf.size * 1.32 + S_(8)
 
-    # Row 1: three leads, each as tall as its own copy needs
+    # Row 1: one lead at half the page, two seconds at a quarter each. Equal-width
+    # leads gave the eye no entry point; the width is the hierarchy now.
     r1y = sy + sh + S_(10)
-    r1h = max(card_h(span(4, i)[1], CARDS[i], S_(158), 25, 10) for i in range(3))
-    for i in range(3):
-        x, cw = span(4, i)
-        card(x, r1y, cw, r1h, i + 1, CARDS[i], S_(158), 25, 10)
+    lead_w = span(6)[1]
+    sec_w = span(3)[1]
+    lh_ = card_h(lead_w, CARDS[0], S_(176), 34, 11)
+    sh_ = card_h(sec_w, CARDS[1], S_(120), 19, 9)
+    r1h = max(lh_, sh_)
+    card(M, r1y, lead_w, r1h, 1, CARDS[0], S_(176), 34, 11)
+    for i in (1, 2):
+        x = M + lead_w + G + (i - 1) * (sec_w + G)
+        card(x, r1y, sec_w, r1h, i + 1, CARDS[i], S_(120), 19, 9)
 
     # Rows 2 and 3: four each, same rule
     r2y = r1y + r1h + G
-    r2h = max(card_h(span(3, i)[1], CARDS[3 + i], S_(84), 17, 9) for i in range(4))
-    for i in range(4):
-        x, cw = span(3, i)
+    r2h = max(card_h(span(3, i)[1], CARDS[3 + i], S_(84), 17, 9) for i in range(5))
+    for i in range(5):
+        x, cw = span(2.4, i)
         card(x, r2y, cw, r2h, i + 4, CARDS[3 + i], S_(84), 17, 9)
     r3y = r2y + r2h + G
     for i in range(4):
         x, cw = span(3, i)
-        card(x, r3y, cw, r2h, i + 8, CARDS[7 + i], S_(84), 17, 9)
+        card(x, r3y, cw, r2h, i + 9, CARDS[8 + i], S_(84), 18, 9)
 
     # ---- map + briefs --------------------------------------------------
     by = r3y + r2h + S_(12)
